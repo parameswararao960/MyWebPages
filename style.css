@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    list-style: none;
+    padding: 20px;
+    margin: 0 0 10px 0;
+    display: flex;
+    gap: 50px;
+}
+
+.navItems {
+    font-size: 25px;
+}
