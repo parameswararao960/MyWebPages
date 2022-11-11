@@ -19,15 +19,21 @@ body {
 
 .navItems a {
     text-decoration: none;
-    color: white;
+    color: rgb(10, 251, 114);
 }
 
 .navItems a:hover {
-    color: rgb(176, 176, 176);
+    color: rgb(11, 179, 95);
+}
+
+#mainDiv {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(34, 34, 34);
 }
 
 #loginForm{
-    border: 1px solid black;
+    border: 1px solid rgb(10, 251, 114);
     width: 400px;
     height: 300px;
     margin: 130px auto 0 auto;
@@ -37,12 +43,15 @@ body {
     align-items: center;
 }
 
+#loginForm h2 {
+    color: rgb(10, 251, 114);
+}
+
 .loginTxt {
     width: 300px;
     padding: 8px 5px;
     border: none;
     border-radius: 6px;
-    box-shadow: 0 0 5px black;
 }
 
 #loginBtnDiv {
@@ -51,10 +60,17 @@ body {
 }
 
 #loginBtn {
-    border: none;
+    border: 1px solid rgb(34, 34, 34);
     width: 60px;
     padding: 6px 3px;
-    box-shadow: 0 0 5px black;
     border-radius: 4px;
-    
+    background-color: rgb(10, 251, 114);
+    color: black;
 }
+
+#loginBtn:hover {
+    color: rgb(10, 251, 114);
+    background-color: rgb(34, 34, 34);
+    border: 1px solid rgb(10, 251, 114);
+}
+
