@@ -8,7 +8,7 @@ body {
     color: white;
     list-style: none;
     padding: 20px;
-    margin: 0 0 10px 0;
+    margin: 0;
     display: flex;
     gap: 50px;
 }
@@ -24,4 +24,37 @@ body {
 
 .navItems a:hover {
     color: rgb(176, 176, 176);
+}
+
+#loginForm{
+    border: 1px solid black;
+    width: 400px;
+    height: 300px;
+    margin: 130px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.loginTxt {
+    width: 300px;
+    padding: 8px 5px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 0 5px black;
+}
+
+#loginBtnDiv {
+    display: flex;
+    justify-content : center;
+}
+
+#loginBtn {
+    border: none;
+    width: 60px;
+    padding: 6px 3px;
+    box-shadow: 0 0 5px black;
+    border-radius: 4px;
+    
 }
