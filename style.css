@@ -37,6 +37,7 @@ body {
     width: 400px;
     height: 300px;
     margin: 130px auto 0 auto;
+    padding-bottom: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

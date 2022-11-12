@@ -16,16 +16,17 @@
             <li class="navItems"><a href="#">Contact Us</a></li>
         </ul>
 
-        <form id="loginForm">
+        <form id="loginForm" name="loginForm">
             <h2>Login</h2>
-            <input class="loginTxt" type="text" name="userName" placeholder="Enter User Name">
+            <input class="loginTxt" type="text" id="userName" placeholder="Enter User Name" required>
             <br>
-            <input class="loginTxt" type="text" name="userPassword" placeholder="Enter Password">
+            <input class="loginTxt" type="password" id="password" placeholder="Enter Password" required minlength="6">
             <br>
             <div id="loginBtnDiv">
-                <input id="loginBtn" type="submit" value="Login">
+                <input id="loginBtn" type="submit" value="Login" onclick="checkValidations()">
             </div>            
         </form>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
